@@ -1,5 +1,5 @@
 USE laptops;
- # 1. Create backup
+ # 1. Create backup  for dataset
 
 CREATE TABLE laptops_backup LIKE laptops;
 INSERT INTO laptops_backup
