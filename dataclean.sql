@@ -10,7 +10,7 @@ SELECT * FROM laptops;
 
 SELECT COUNT(*) FROM laptop;
 
-# 3. Check memory consumption for reference
+# 3. Check memory consumption for reference size in KB
 
 SELECT DATA_LENGTH/1024 FROM information_schema.TABLES
 WHERE TABLE_SCHEMA = 'laptops'
